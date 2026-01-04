@@ -2,9 +2,6 @@ apiVersion: deploy.cloud.google.com/v1
 kind: Target
 metadata:
   name: dev
-  annotations: {}
-  labels: {}
 description: dev
 gke:
-  cluster: projects/project-66a29879-9843-4202-83c/locations/us-central1-c/clusters/standard-public-cluster-1
-
+  cluster: projects/project-66a29879-9843-4202-83c/locations/us-central1/clusters/standard-public-cluster-1
